@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoBliss</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="adminNav">
+        <img src="images/436710792_287606187622277_7084769053677681528_n-removebg-preview.png" alt="" style="height: 70px;">
+        <ul>
+            <li><button class="min-link-ad active"  onclick="openTabad(event, 'ad1')">Overview</button></li>
+            <li><button class="min-link-ad" onclick="openTabad(event, 'ad2')">Dark Chocolate</button></li>
+            <li><button class="min-link-ad" onclick="openTabad(event, 'ad3')">White Chocolate</button></li>
+            <li><button class="min-link-ad" onclick="openTabad(event, 'ad4')">Milk Chocolate</button></li>
+        </ul>
+        <a href="login.html"><i class="bi bi-box-arrow-right we" style="font-size: 22px;"></i></a>
+        <span onclick="openNav()"><i class="bi bi-list"></i></span>
+        <div id="mySidenav" class="sidenav" style="text-align: center;">
+            <img src="images/436710792_287606187622277_7084769053677681528_n-removebg-preview.png" alt="" style="height: 70px;">
+        
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="min-link-ad" onclick="openTabad(event, 'ad1')">Overview</a>
+            <a class="min-link-ad" onclick="openTabad(event, 'ad2')">Dark Chocolate</a>
+            <a class="min-link-ad" onclick="openTabad(event, 'ad3')">White Chocolate</a>
+            <a class="min-link-ad" onclick="openTabad(event, 'ad4')">Milk Chocolate</a>
+            <a href="login.html"><i class="bi bi-box-arrow-right" style="font-size: 22px;"></i></a>
+        </div>
+    </nav>
+
+    <section class="adminpage ov on" id="ad1">
+        <div class="graphs">
+            <img src="images/Screenshot 2024-04-17 012530.png" alt="" style="height: 250px; width: 100%;">
+            <img src="images/Screenshot 2024-04-17 013041.png" alt=""
+            style="height: 250px; width: 100%;">
+            <div class="report">
+                <h3>Top Sales: </h3>
+                <br>
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Profit</th>
+                    </tr>
+                    <tr>
+                        <td>Dark Chocolate</td>
+                        <td>223</td>
+                        <td>$104+</td>
+                    </tr>
+                    <tr>
+                        <td>White Chocolate</td>
+                        <td>109</td>
+                        <td>$84+</td>
+                    </tr>
+                    <tr>
+                        <td>Milk Chocolate</td>
+                        <td>24</td>
+                        <td>$50+</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="account">
+            <p style="margin: 0 auto;"><i class="bi bi-person-circle" style="font-size: 182px;"></i> </p>
+            <h3 style="text-align: center; font-size: 32px">Adrian Paul M. Barcelona</h3>   
+            <h4 style="text-align: center;">Admin/Owner</h4>
+            <p style="margin: 0 auto;"><i class="bi bi-person-circle" style="font-size: 182px;"></i> </p>
+            <h3 style="text-align: center; font-size: 32px">Lance Muthalib T. Ahil</h3>   
+            <h4 style="text-align: center;">Co-Admin/Owner</h4>
+        </div>
+    </section>
+
+    <section class="adminpage ov " id="ad2">
+        <div class="graphs1" >
+            <div class="ncard">
+                <img src="images/d_choco.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Dark Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/dark2.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Dark Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/dark3.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Dark Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/dark4.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Dark Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/dark5.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Dark Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/dark6.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Dark Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/dark7.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Dark Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/dark8.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Dark Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/dark9.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Dark Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+        </div>
+        <div class="account">
+            <p style="margin: 0 auto;"><i class="bi bi-plus-circle" style="font-size: 182px;"></i> </p>     
+            <h3 style="text-align: center; font-size: 32px">Add Product</h3>   
+            <h4 style="text-align: center;">Dark Chocolate</h4>   
+        </div>
+    </section>
+    <section class="adminpage ov" id="ad3">
+        <div class="graphs1" >
+            <div class="ncard">
+                <img src="images/white1.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>White Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/w_choco.png" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>White Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/white2.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>White Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/white3.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>White Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/white4.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>White Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/white5.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>White Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/white6.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>White Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/white7.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>White Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/white8.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>White Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            
+        </div>
+        <div class="account">
+            <p style="margin: 0 auto;"><i class="bi bi-plus-circle" style="font-size: 182px;"></i> </p>     
+            <h3 style="text-align: center; font-size: 32px">Add Product</h3>   
+            <h4 style="text-align: center;">White Chocolate</h4>   
+        </div>
+    </section>
+    <section class="adminpage ov" id="ad4">
+        <div class="graphs1" >
+            <div class="ncard">
+                <img src="images/milk1.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Milk Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/milk2.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Milk Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/m_choco.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Milk Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/milk3.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Milk Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/milk4.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Milk Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/milk5.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Milk Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/milk6.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Milk Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/milk7.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Milk Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+            <div class="ncard">
+                <img src="images/milk8.jpg" alt="" style="height: 100px;">
+                <div class="card-title">
+                    <h3>Milk Chocolate</h3>
+                </div>
+                <div class="card-body">
+                </div>
+                <button class="buy-but">Available</button>
+            </div>
+        </div>
+        <div class="account">
+            <p style="margin: 0 auto;"><i class="bi bi-plus-circle" style="font-size: 182px;"></i> </p>     
+            <h3 style="text-align: center; font-size: 32px">Add Product</h3>   
+            <h4 style="text-align: center;">Milk Chocolate</h4>   
+        </div>
+    </section>
+</body> 
+</html>
